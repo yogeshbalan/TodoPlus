@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.nirankari.avtarbaniandroid.MainActivity">
+    <item
+        android:id="@+id/action_add_task"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:orderInCategory="1"
+        android:title="@string/action_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="2"
+        android:title="@string/action_logout"
+        app:showAsAction="always" />
+
+</menu>

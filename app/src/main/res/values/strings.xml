@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Todoplus</string>
+    <string name="title_all">All</string>
+    <string name="title_pending">Pending</string>
+    <string name="title_done">Done</string>
+
+    <string name="action_add">Add task</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_confirm">confirm</string>
+    <string name="action_discard">discard</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="view_task">Task Details</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Sign Up</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+
+    <string name="no_to_dos">You don\'t have any todos</string>
+    <string name="title">Title</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="date_and_time">Date / Time</string>
+    <string name="choose_date">Date</string>
+    <string name="choose_time">Time</string>
+    <string name="add_desc">Add Description</string>
+    <string name="Description">Description</string>
+    <string name="field_empty">This field is required</string>
+    <string name="remind_date_and_time">Reminder set for %1$s, %2$s %3$s</string>
+    <string name="about">About</string>
+    <string name="dialog_delete_task_title">Delete Task</string>
+    <string name="dialog_delete_task_desc">Are you sure you want to delete this task?</string>
+    <string name="dialog_logout_title">Logout</string>
+    <string name="dialog_logout_desc">Are you sure you want to logout? \nAll tasks will be deleted automatically.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_task">Task Details</string>
+    <string name="title_activity_Edit_task">Edit Task Details</string>
+
+    <string name="email_field">Invalid Email</string>
+    <string name="password_field">Invalid Password</string>
+    <string name="user_not_found">User not found. Please try again</string>
+    <string name="task_created_toast">Task created succesfully</string>
+    <string name="task_saved_toast">Task updated succesfully</string>
+    <string name="due_date">Due date : </string>
+    <string name="created_date">Created : </string>
+    <string name="cannot_find_task">Cannot find task</string>
+    <string name="delete_task_toast">Task deleted succesfully</string>
+</resources>

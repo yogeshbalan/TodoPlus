@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.nirankari.avtarbaniandroid.AddTaskActivity">
+    <item
+        android:id="@+id/action_add_task_confirm"
+        android:icon="@drawable/ic_check_white_24dp"
+        android:orderInCategory="2"
+        android:title="@string/action_confirm"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_discard_task"
+        android:icon="@drawable/ic_close_white_24dp"
+        android:orderInCategory="1"
+        android:title="@string/action_discard"
+        app:showAsAction="always" />
+</menu>
