@@ -32,6 +32,9 @@
     <string name="remind_me">Remind Me</string>
     <string name="date_and_time">Date / Time</string>
     <string name="choose_date">Date</string>
+    <string name="task_status">status</string>
+    <string name="task_status_done">Status : Done</string>
+    <string name="task_status_pending">Status : Pending</string>
     <string name="choose_time">Time</string>
     <string name="add_desc">Add Description</string>
     <string name="Description">Description</string>

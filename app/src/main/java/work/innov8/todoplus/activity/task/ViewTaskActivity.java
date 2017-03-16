@@ -43,6 +43,9 @@ public class ViewTaskActivity extends AppCompatActivity {
     @BindView(R.id.tv_task_item_date_created)
     TextView taskItemDateCreatedTV;
 
+    @BindView(R.id.tv_task_item_status)
+    TextView taskItemStatusTV;
+
     @BindView(R.id.cb_done_item)
     AppCompatCheckBox checkBox;
 
@@ -93,6 +96,11 @@ public class ViewTaskActivity extends AppCompatActivity {
             taskItemDateCreatedTV.setText(this.getResources().getString(R.string.created_date) + task.getTaskDateCreated());
         }
         checkBox.setChecked(task.isTaskDone());
+        if (task.isTaskDone()) {
+            taskItemStatusTV.setText(this.getResources().getString(R.string.task_status_done));
+        } else {
+            taskItemStatusTV.setText(this.getResources().getString(R.string.task_status_pending));
+        }
     }
 
 
